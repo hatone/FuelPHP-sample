@@ -1,0 +1,18 @@
+#########################################
+#
+#  fluxflex configuration for CakePHP
+#
+#########################################
+
+
+## Replace
+[replace]
+fuel/app/config/development/db.php   DUMMY_DB_HOST         DB_HOST
+fuel/app/config/development/db.php   DUMMY_PROJECT_NAME    PROJECT_NAME
+fuel/app/config/development/db.php   DUMMY_DB_PASSWORD     DB_PASSWORD
+
+## Setup
+[setup]
+ln -s public public_html
+
+
